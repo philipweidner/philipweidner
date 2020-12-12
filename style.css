@@ -45,6 +45,39 @@ main{
 	font-size: 31px;
 	color: white;
 }
+.img1{
+	height: 600px;
+	width: 300px;
+	background-image: url(images/dreamscape.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+.img2{
+	height: 600px;
+	width: 300px;
+	background-image: url(images/collage.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+.img3{
+	height: 600px;
+	width: 300px;
+	background-image: url(images/poster.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+.img-description{
+	padding-top: 535px;
+}
 .resume{
 	font-family: 'Roboto Mono', monospace;
 	color: #20D830;
@@ -62,15 +95,15 @@ footer{
 	height: 140px;
 	text-align:center;
 }
-/*CSS for tablets*/
-@media only screen and (max-width: 1024px){
-	h1{
-		font-size: 1.8em;
-	}
-}
 /*CSS for smartphones*/
 @media only screen and (max-width: 768px){
 	h1{
 		font-size: 1.5em;
+	}
+}
+/*CSS for tablets*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.8em;
 	}
 }
