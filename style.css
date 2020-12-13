@@ -144,13 +144,7 @@ footer{
 	height: 140px;
 	text-align:center;
 }
-/*CSS for smartphones*/
-@media only screen and (max-width: 768px){
-	h1{
-		font-size: 1.5em;
-	}
-}
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 446px){
 	.logo{
 	height: 50px;
 	width: 150px;
@@ -163,10 +157,48 @@ footer{
 	height: 25px;
 	width: 25px;
 	}
+	.img1{
+		width: auto;
+	}
+	.img2{
+		width: auto;
+	}
+	.img3{
+		width: auto;
+	}
+	.img4{
+		width: auto;
+	}
+	.img6{
+		width: auto;
+	}
 }
-/*CSS for tablets*/
+/*Media query for smartphones*/
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+/*Media query for tablets*/
 @media only screen and (max-width: 1024px){
 	h1{
 		font-size: 1.8em;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.img1{
+		width: auto;
+	}
+	.img2{
+		width: auto;
+	}
+	.img3{
+		width: auto;
+	}
+	.img4{
+		width: auto;
+	}
+	.img6{
+		width: auto;
 	}
 }
