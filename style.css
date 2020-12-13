@@ -44,7 +44,7 @@ nav a:hover{
 nav a:active{
 	color: purple;
 }
-.img-fluid{
+.logo{
 	height: 100px;
 	width: 300px;
 }
@@ -120,7 +120,7 @@ footer{
 	}
 }
 @media only screen and (max-width: 400px){
-	.img-fluid{
+	.logo{
 	height: 50px;
 	width: 150px;
 	}
