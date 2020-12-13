@@ -10,10 +10,16 @@ header{
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 0;
+	padding-right: 0;
 	background-color: black;
 }
 .navbar-toggler-icon{
-	color: white;
+	height: 40px;
+	width: 40px;
+}
+.menu{
+	height: 40px;
+	width: 40px;
 }
 nav ul{
 	list-style-type: none;
@@ -117,7 +123,15 @@ footer{
 	.img-fluid{
 	height: 50px;
 	width: 150px;
-}
+	}
+	.navbar-toggler-icon{
+	height: 25px;
+	width: 25px;
+	}
+	.menu{
+	height: 25px;
+	width: 25px;
+	}
 }
 /*CSS for tablets*/
 @media only screen and (max-width: 1024px){
